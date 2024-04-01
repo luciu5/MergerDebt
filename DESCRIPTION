@@ -1,0 +1,20 @@
+Package: MergerDebt
+Type: Package
+Title: Simulates the effects of horizontal mergers when firms have debt.
+Version: 0.1.0
+Date: 2023-11-27
+Authors@R: c(person("Charles", "Taragin", email = "ctaragin+mergerdebtr@gmail.com",
+                  role = c("aut", "cre")))
+Maintainer: Charles Taragin <ctaragin+mergerdebtr@gmail.com>
+Depends: antitrust (>= 0.99.11)
+Imports: BB, cubature, dplyr,methods
+VignetteBuilder: knitr
+Encoding: UTF-8
+Description: 
+License: CC0
+LazyData: true
+RoxygenNote: 7.2.3
+Collate: 
+    'DebtClasses.R'
+    'Debt-methods.R'
+    'DebtFunctions.R'
